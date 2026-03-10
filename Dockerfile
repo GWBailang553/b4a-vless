@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-ENV UUID=19800000-0000-0000-0000-000000000000
-ENV WSPATH=/video
+ENV UUID=32022199-1314-5240-9999-108113106214
+ENV WSPATH=/cjwxt
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
     && mkdir -p /usr/bin/xray \
